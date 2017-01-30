@@ -1,0 +1,60 @@
+* {
+	box-sizing: border-box;
+}
+body{
+	font-size: 14px;
+}
+h2{
+	text-align: center;
+}
+.box{
+	position: relative;
+	float: left;
+	margin: 9px;
+	padding: 10px;
+	border: 1px solid black;
+	background:gray;
+}
+.box .title{
+	position: absolute;
+	right: 0;
+	top: 0;
+	padding: 5px 14px;
+	border-bottom: 1px solid black;
+	border-left: 1px solid black;
+}
+.box .text{
+	margin-top: 20px;
+}
+#title1{
+	background: pink;
+}
+#title2{
+	background: darkred;
+	color: white;
+}
+#title3{
+	background: lightyellow;
+}
+
+@media (max-width: 767px){
+	.box{
+		width: auto;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.box{
+		width: 47%;
+	}
+	.box:nth-child(4){
+		width: auto; 
+	}
+
+}
+
+@media (min-width: 992px){
+	.box{
+		width: 31%;
+	}
+}
