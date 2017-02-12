@@ -1,0 +1,8 @@
+.container-fluid .title{
+	margin-bottom: 40px;
+	padding-top: 10px; 
+}
+.container-fluid .description{
+	background: lightgray;
+	margin-bottom: 20px;
+}
